@@ -1,7 +1,6 @@
 package com.example.calculator.service;
 
 import com.example.calculator.rest.CalculateRequest;
-import com.example.calculator.rest.parser.CalculationParser;
 import org.springframework.stereotype.Service;
 
 @Service

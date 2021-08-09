@@ -1,4 +1,4 @@
-package com.example.calculator.rest.parser;
+package com.example.calculator.service;
 
 import com.example.calculator.model.Distance;
 import com.example.calculator.model.DistanceUnit;

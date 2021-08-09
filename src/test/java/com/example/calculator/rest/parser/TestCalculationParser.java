@@ -3,6 +3,7 @@ package com.example.calculator.rest.parser;
 import com.example.calculator.model.Distance;
 import com.example.calculator.model.Operation;
 import com.example.calculator.rest.CalculateRequest;
+import com.example.calculator.service.CalculationParser;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
