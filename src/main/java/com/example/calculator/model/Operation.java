@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public enum Operation implements BinaryOperator<Distance> {
     ADD         ((a, b) -> a + b, ExponentChange.NONE, "+"),
     SUBTRACT    ((a, b) -> a - b, ExponentChange.NONE, "-"),
-    DIVIDE      ((a, b) -> a / b, ExponentChange.DECREMENT, "/"),
+    DIVIDE      ((a, b) -> a / b, ExponentChange.DECREMENT, "|"),
     MULTIPLY    ((a, b) -> a * b, ExponentChange.INCREMENT, "*");
 
     private final DoubleBinaryOperator operator;

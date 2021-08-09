@@ -47,7 +47,7 @@ One of `METER`:`m`, `NAUTICAL_MILE`:`nm`, `FEET`:`ft`
 `unit` - `Unit` of distance<br>
 `exponent`: optional - exponent of the unit in `^x` format, defaults to 1<br>
 ##### Operator
-One of `+`, `-`, `/`, `*`
+One of `+`, `-`, `|` - division, `*`
 ##### Unit
 One of `METER`:`m`, `NAUTICAL_MILE`:`nm`, `FEET`:`ft`
 

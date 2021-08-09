@@ -65,7 +65,7 @@ class TestCalculateService {
                                 Distance.of(1, METER),
                                 Operation.SUBTRACT, METER),
                         Distance.of(0, METER)
-                ), Arguments.of("1m/1m=m", new CalculateRequest(
+                ), Arguments.of("1m|1m=m", new CalculateRequest(
                                 Distance.of(1, METER),
                                 Distance.of(1, METER),
                                 Operation.DIVIDE, METER),
