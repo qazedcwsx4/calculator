@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CalculationController {
+public class CalculateController {
 
     private final CalculateService calculateService;
 
     @Autowired
-    public CalculationController(CalculateService calculateService) {
+    public CalculateController(CalculateService calculateService) {
         this.calculateService = calculateService;
     }
 
