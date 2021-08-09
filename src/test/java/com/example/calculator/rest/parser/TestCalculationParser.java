@@ -29,6 +29,11 @@ class TestCalculationParser {
                         Distance.of(1, METER),
                         Operation.ADD,
                         METER)
+                ),Arguments.of("0.1m+2.0m=m", new CalculateRequest(
+                        Distance.of(0.1, METER),
+                        Distance.of(2, METER),
+                        Operation.ADD,
+                        METER)
                 ), Arguments.of("1m-1m=m", new CalculateRequest(
                         Distance.of(1, METER),
                         Distance.of(1, METER),

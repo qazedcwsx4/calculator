@@ -9,7 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CalculationParser {
-    private static final Pattern NUMBER_PATTERN = Pattern.compile("-?[0-9]+");
+    private static final Pattern NUMBER_PATTERN = Pattern.compile("-?[0-9]+(\\.[0-9]+)?");
     private static final Pattern UNIT_PATTERN = Pattern.compile("[a-zA-Z]+");
     private static final Pattern EXPONENT_PATTERN = Pattern.compile("\\^-?[0-9]+");
     private static final Pattern OPERATION_PATTERN = Pattern.compile("[-+*/]");
